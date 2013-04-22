@@ -1,0 +1,35 @@
+Main-Class: aQute.daemon.Daemon
+JPM-Service: testd
+
+-include: .settings/org.eclipse.jdt.core.prefs
+
+javac.source 			= ${org.eclipse.jdt.core.compiler.compliance}
+javac.target 			= ${org.eclipse.jdt.core.compiler.codegen.targetPlatform}
+
+-sources: false
+
+Bundle-Description: A test daemon, just prints out a number every 3 seconds
+Private-Package: aQute.daemon
+ 
+Bundle-License: 				http://www.opensource.org/licenses/apache2.0.php; \
+									description="${Bundle-Copyright}"; \
+									link=LICENSE
+Bundle-Vendor: 					jpm4j.org
+Bundle-Icon: 					images/icon.png;size=64
+						
+Bundle-Version: 1.2.1.${tstamp}
+
+	
+
+-digests: MD5, SHA1
+
+
+Bundle-Developers: \
+	pkriens; \
+		email=Peter.Kriens@aQute.biz;
+		name="Peter Kriens"; \
+		organization=aQute; \
+		organizationUrl=http://www.jpm4j.org; \
+		roles="architect,developer"; \
+      	timezone=1
+

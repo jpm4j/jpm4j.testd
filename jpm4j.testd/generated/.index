@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1366622900115' name='jpm4j.testd' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='jpm4j.testd'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.2.1.201304220928'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='118761cabf7beb5ee09bc858a9b983b51f40dc77bc5a0debe4f22a30164bd7dc'/>
+      <attribute name='url' value='generated/jpm4j.testd.jar'/>
+      <attribute name='size' type='Long' value='1614'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='jpm4j.testd'/>
+      <attribute name='bundle-version' type='Version' value='1.2.1.201304220928'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='jpm4j.testd'/>
+      <attribute name='bundle-version' type='Version' value='1.2.1.201304220928'/>
+    </capability>
+    <capability namespace='bndtools.workspace'>
+      <attribute name='bndtools.workspace' value='file:/WS/metadata/testd'/>
+      <attribute name='project.path' value='/jpm4j.testd'/>
+    </capability>
+  </resource>
+</repository>
